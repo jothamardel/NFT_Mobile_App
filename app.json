@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "react_native_app",
-    "slug": "react_native_app",
+    "name": "koopon",
+    "slug": "koopon",
+    "description": "NFT mobile application for koopons",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mbiplang.koopon"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mbiplang.koopon"
     },
     "web": {
       "favicon": "./assets/favicon.png"
